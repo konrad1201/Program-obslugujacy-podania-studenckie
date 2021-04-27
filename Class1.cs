@@ -14,13 +14,16 @@ namespace Projekt_Programowanie_Obiektowe
         private string LastName;
         private int Department;
         private int Year;
+        private int Index_Number;
         private int Semester;
-        private int Level;
-        private double Average;
+        private int Study_Level;
+        private string Average;
         private double Family_Money;
         private int Family_Members;
         private string Bank_Account_Number;
         private double Distance;
+        private int Achievements;
+        private int Deficit;
 
         private string myVar;
 
@@ -28,12 +31,87 @@ namespace Projekt_Programowanie_Obiektowe
         {
             get
             {
-                return $"{FirstName} {LastName}";
+                return $"{FirstName} {LastName} {Department} {Index_Number} {Study_Level} {Year} {Semester} {Average} {Achievements} {Deficit}  ";
             }
         }
 
 
-        public string Name_p
+        public int Achievements_P
+        {
+            get
+            {
+                return Achievements ;
+            }
+
+
+
+            set
+            {
+                Achievements = value;
+            }
+        }
+
+        public int Deficit_P
+        {
+            get
+            {
+                return Deficit;
+            }
+
+
+
+            set
+            {
+                Deficit = value;
+            }
+        }
+
+        public double Distance_P
+        {
+            get
+            {
+                return Distance;
+            }
+
+
+
+            set
+            {
+                Distance = value;
+            }
+        }
+
+        public string Average_P
+        {
+            get
+            {
+                return Average;
+            }
+
+
+
+            set
+            {
+                Average = value;
+            }
+        }
+
+        public int Index_Number_P
+        {
+            get
+            {
+                return Index_Number;
+            }
+
+
+
+            set
+            {
+                Index_Number = value;
+            }
+        }
+
+        public string FirstName_P
         {
             get
             {
@@ -48,7 +126,7 @@ namespace Projekt_Programowanie_Obiektowe
             }
         }
 
-        public string Surname_p
+        public string LastName_p
         {
             get
             {
@@ -133,18 +211,18 @@ namespace Projekt_Programowanie_Obiektowe
 
 
 
-        public int Level_p
+        public int Study_Level_p
         {
             get
             {
-                return Level;
+                return Study_Level;
             }
 
 
 
             set
             {
-                Level = value;
+                Study_Level = value;
             }
         }
     }

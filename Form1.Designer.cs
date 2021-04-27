@@ -31,10 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.socjalne_wybor = new System.Windows.Forms.TabControl();
             this.Rektora_wybor = new System.Windows.Forms.TabPage();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.Index_Number_textbox = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.Bank_account_textBox10 = new System.Windows.Forms.TextBox();
+            this.Rektor_Button_Send = new System.Windows.Forms.Button();
+            this.Bank_account_textBox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.achievements_textbox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -42,19 +43,21 @@
             this.label8 = new System.Windows.Forms.Label();
             this.average_textbox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.Semester_textbox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.faculty_textbox = new System.Windows.Forms.TextBox();
+            this.Department_textbox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.surname_textbox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.level_textbox = new System.Windows.Forms.TextBox();
+            this.Study_level_textbox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.year_textbox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.Name_textbox = new System.Windows.Forms.TextBox();
             this.Imie_label = new System.Windows.Forms.Label();
             this.Socjalne_wyb = new System.Windows.Forms.TabPage();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
             this.S_Bank_Account_textbox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.S_Family_Members_textbox = new System.Windows.Forms.TextBox();
@@ -74,6 +77,8 @@
             this.S_Name_textBox11 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -94,11 +99,18 @@
             this.label28 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.Admin_Log_Button = new System.Windows.Forms.Button();
+            this.Admin_Haslo_Textbox = new System.Windows.Forms.TextBox();
+            this.Admin_Login_Textbox = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.socjalne_wybor.SuspendLayout();
             this.Rektora_wybor.SuspendLayout();
             this.Socjalne_wyb.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,6 +119,7 @@
             this.socjalne_wybor.Controls.Add(this.Rektora_wybor);
             this.socjalne_wybor.Controls.Add(this.Socjalne_wyb);
             this.socjalne_wybor.Controls.Add(this.tabPage3);
+            this.socjalne_wybor.Controls.Add(this.tabPage1);
             this.socjalne_wybor.Dock = System.Windows.Forms.DockStyle.Top;
             this.socjalne_wybor.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.socjalne_wybor.Location = new System.Drawing.Point(0, 0);
@@ -119,10 +132,11 @@
             // Rektora_wybor
             // 
             this.Rektora_wybor.BackColor = System.Drawing.Color.Maroon;
-            this.Rektora_wybor.Controls.Add(this.listBox1);
+            this.Rektora_wybor.Controls.Add(this.Index_Number_textbox);
+            this.Rektora_wybor.Controls.Add(this.label31);
             this.Rektora_wybor.Controls.Add(this.button2);
-            this.Rektora_wybor.Controls.Add(this.button1);
-            this.Rektora_wybor.Controls.Add(this.Bank_account_textBox10);
+            this.Rektora_wybor.Controls.Add(this.Rektor_Button_Send);
+            this.Rektora_wybor.Controls.Add(this.Bank_account_textBox);
             this.Rektora_wybor.Controls.Add(this.label10);
             this.Rektora_wybor.Controls.Add(this.achievements_textbox);
             this.Rektora_wybor.Controls.Add(this.label9);
@@ -130,13 +144,13 @@
             this.Rektora_wybor.Controls.Add(this.label8);
             this.Rektora_wybor.Controls.Add(this.average_textbox);
             this.Rektora_wybor.Controls.Add(this.label7);
-            this.Rektora_wybor.Controls.Add(this.textBox6);
+            this.Rektora_wybor.Controls.Add(this.Semester_textbox);
             this.Rektora_wybor.Controls.Add(this.label6);
-            this.Rektora_wybor.Controls.Add(this.faculty_textbox);
+            this.Rektora_wybor.Controls.Add(this.Department_textbox);
             this.Rektora_wybor.Controls.Add(this.label5);
             this.Rektora_wybor.Controls.Add(this.surname_textbox);
             this.Rektora_wybor.Controls.Add(this.label4);
-            this.Rektora_wybor.Controls.Add(this.level_textbox);
+            this.Rektora_wybor.Controls.Add(this.Study_level_textbox);
             this.Rektora_wybor.Controls.Add(this.label3);
             this.Rektora_wybor.Controls.Add(this.year_textbox);
             this.Rektora_wybor.Controls.Add(this.label2);
@@ -151,15 +165,21 @@
             this.Rektora_wybor.Text = "Stypendium Rektora";
             this.Rektora_wybor.Click += new System.EventHandler(this.retora_wybor_Click);
             // 
-            // listBox1
+            // Index_Number_textbox
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 26;
-            this.listBox1.Location = new System.Drawing.Point(8, 305);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(187, 108);
-            this.listBox1.TabIndex = 24;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.Index_Number_textbox.Location = new System.Drawing.Point(745, 94);
+            this.Index_Number_textbox.Name = "Index_Number_textbox";
+            this.Index_Number_textbox.Size = new System.Drawing.Size(110, 32);
+            this.Index_Number_textbox.TabIndex = 26;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(574, 97);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(165, 26);
+            this.label31.TabIndex = 25;
+            this.label31.Text = "Numer indeksu:";
             // 
             // button2
             // 
@@ -171,23 +191,23 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button1
+            // Rektor_Button_Send
             // 
-            this.button1.Location = new System.Drawing.Point(378, 339);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 44);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Rektor_Button_Send.Location = new System.Drawing.Point(378, 339);
+            this.Rektor_Button_Send.Name = "Rektor_Button_Send";
+            this.Rektor_Button_Send.Size = new System.Drawing.Size(111, 44);
+            this.Rektor_Button_Send.TabIndex = 22;
+            this.Rektor_Button_Send.Text = "Wyślij";
+            this.Rektor_Button_Send.UseVisualStyleBackColor = true;
+            this.Rektor_Button_Send.Click += new System.EventHandler(this.Rektor_Button_Send_Click);
             // 
-            // Bank_account_textBox10
+            // Bank_account_textBox
             // 
-            this.Bank_account_textBox10.Location = new System.Drawing.Point(378, 276);
-            this.Bank_account_textBox10.Margin = new System.Windows.Forms.Padding(2);
-            this.Bank_account_textBox10.Name = "Bank_account_textBox10";
-            this.Bank_account_textBox10.Size = new System.Drawing.Size(478, 32);
-            this.Bank_account_textBox10.TabIndex = 21;
+            this.Bank_account_textBox.Location = new System.Drawing.Point(378, 276);
+            this.Bank_account_textBox.Margin = new System.Windows.Forms.Padding(2);
+            this.Bank_account_textBox.Name = "Bank_account_textBox";
+            this.Bank_account_textBox.Size = new System.Drawing.Size(478, 32);
+            this.Bank_account_textBox.TabIndex = 21;
             // 
             // label10
             // 
@@ -253,31 +273,31 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "Średnia ocen :";
             // 
-            // textBox6
+            // Semester_textbox
             // 
-            this.textBox6.Location = new System.Drawing.Point(746, 166);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(111, 32);
-            this.textBox6.TabIndex = 13;
+            this.Semester_textbox.Location = new System.Drawing.Point(744, 180);
+            this.Semester_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.Semester_textbox.Name = "Semester_textbox";
+            this.Semester_textbox.Size = new System.Drawing.Size(111, 32);
+            this.Semester_textbox.TabIndex = 13;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(634, 166);
+            this.label6.Location = new System.Drawing.Point(634, 180);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(106, 26);
             this.label6.TabIndex = 12;
             this.label6.Text = "Semestr :";
             // 
-            // faculty_textbox
+            // Department_textbox
             // 
-            this.faculty_textbox.Location = new System.Drawing.Point(378, 94);
-            this.faculty_textbox.Margin = new System.Windows.Forms.Padding(2);
-            this.faculty_textbox.Name = "faculty_textbox";
-            this.faculty_textbox.Size = new System.Drawing.Size(111, 32);
-            this.faculty_textbox.TabIndex = 11;
+            this.Department_textbox.Location = new System.Drawing.Point(378, 94);
+            this.Department_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.Department_textbox.Name = "Department_textbox";
+            this.Department_textbox.Size = new System.Drawing.Size(111, 32);
+            this.Department_textbox.TabIndex = 11;
             // 
             // label5
             // 
@@ -307,18 +327,18 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Nazwisko :";
             // 
-            // level_textbox
+            // Study_level_textbox
             // 
-            this.level_textbox.Location = new System.Drawing.Point(746, 108);
-            this.level_textbox.Margin = new System.Windows.Forms.Padding(2);
-            this.level_textbox.Name = "level_textbox";
-            this.level_textbox.Size = new System.Drawing.Size(111, 32);
-            this.level_textbox.TabIndex = 7;
+            this.Study_level_textbox.Location = new System.Drawing.Point(745, 136);
+            this.Study_level_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.Study_level_textbox.Name = "Study_level_textbox";
+            this.Study_level_textbox.Size = new System.Drawing.Size(111, 32);
+            this.Study_level_textbox.TabIndex = 7;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(562, 108);
+            this.label3.Location = new System.Drawing.Point(564, 142);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(172, 26);
@@ -364,6 +384,8 @@
             // Socjalne_wyb
             // 
             this.Socjalne_wyb.BackColor = System.Drawing.Color.Maroon;
+            this.Socjalne_wyb.Controls.Add(this.textBox13);
+            this.Socjalne_wyb.Controls.Add(this.label32);
             this.Socjalne_wyb.Controls.Add(this.S_Bank_Account_textbox);
             this.Socjalne_wyb.Controls.Add(this.label1);
             this.Socjalne_wyb.Controls.Add(this.S_Family_Members_textbox);
@@ -390,6 +412,22 @@
             this.Socjalne_wyb.TabIndex = 1;
             this.Socjalne_wyb.Text = "Stypendium Socjalne";
             this.Socjalne_wyb.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(728, 220);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(110, 32);
+            this.textBox13.TabIndex = 43;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(557, 223);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(165, 26);
+            this.label32.TabIndex = 42;
+            this.label32.Text = "Numer indeksu:";
             // 
             // S_Bank_Account_textbox
             // 
@@ -556,6 +594,8 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Maroon;
+            this.tabPage3.Controls.Add(this.textBox14);
+            this.tabPage3.Controls.Add(this.label33);
             this.tabPage3.Controls.Add(this.textBox1);
             this.tabPage3.Controls.Add(this.label20);
             this.tabPage3.Controls.Add(this.textBox2);
@@ -583,6 +623,22 @@
             this.tabPage3.Size = new System.Drawing.Size(1066, 425);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Akademiki";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(744, 35);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(110, 32);
+            this.textBox14.TabIndex = 63;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(573, 38);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(165, 26);
+            this.label33.TabIndex = 62;
+            this.label33.Text = "Numer indeksu:";
             // 
             // textBox1
             // 
@@ -764,6 +820,62 @@
             this.label29.TabIndex = 42;
             this.label29.Text = "Imie :";
             // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.Color.Maroon;
+            this.tabPage1.Controls.Add(this.Admin_Log_Button);
+            this.tabPage1.Controls.Add(this.Admin_Haslo_Textbox);
+            this.tabPage1.Controls.Add(this.Admin_Login_Textbox);
+            this.tabPage1.Controls.Add(this.label30);
+            this.tabPage1.Controls.Add(this.label11);
+            this.tabPage1.Location = new System.Drawing.Point(4, 35);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Size = new System.Drawing.Size(1066, 425);
+            this.tabPage1.TabIndex = 3;
+            this.tabPage1.Text = "Panel Administratora";
+            // 
+            // Admin_Log_Button
+            // 
+            this.Admin_Log_Button.Location = new System.Drawing.Point(434, 200);
+            this.Admin_Log_Button.Name = "Admin_Log_Button";
+            this.Admin_Log_Button.Size = new System.Drawing.Size(100, 39);
+            this.Admin_Log_Button.TabIndex = 4;
+            this.Admin_Log_Button.Text = "Zaloguj";
+            this.Admin_Log_Button.UseVisualStyleBackColor = true;
+            this.Admin_Log_Button.Click += new System.EventHandler(this.Admin_Log_Button_Click);
+            // 
+            // Admin_Haslo_Textbox
+            // 
+            this.Admin_Haslo_Textbox.Location = new System.Drawing.Point(434, 138);
+            this.Admin_Haslo_Textbox.Name = "Admin_Haslo_Textbox";
+            this.Admin_Haslo_Textbox.Size = new System.Drawing.Size(100, 32);
+            this.Admin_Haslo_Textbox.TabIndex = 3;
+            // 
+            // Admin_Login_Textbox
+            // 
+            this.Admin_Login_Textbox.Location = new System.Drawing.Point(434, 80);
+            this.Admin_Login_Textbox.Name = "Admin_Login_Textbox";
+            this.Admin_Login_Textbox.Size = new System.Drawing.Size(100, 32);
+            this.Admin_Login_Textbox.TabIndex = 2;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(340, 141);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(74, 26);
+            this.label30.TabIndex = 1;
+            this.label30.Text = "Haslo:";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(340, 86);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(71, 26);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "Login:";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -797,6 +909,8 @@
             this.Socjalne_wyb.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -809,7 +923,7 @@
         private System.Windows.Forms.TabPage tabPage3;
         public System.Windows.Forms.TabPage Rektora_wybor;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox Bank_account_textBox10;
+        private System.Windows.Forms.TextBox Bank_account_textBox;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox achievements_textbox;
         private System.Windows.Forms.Label label9;
@@ -817,13 +931,13 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox average_textbox;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox Semester_textbox;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox faculty_textbox;
+        private System.Windows.Forms.TextBox Department_textbox;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox surname_textbox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox level_textbox;
+        private System.Windows.Forms.TextBox Study_level_textbox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox year_textbox;
         private System.Windows.Forms.Label label2;
@@ -867,9 +981,20 @@
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Rektor_Button_Send;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Button Admin_Log_Button;
+        private System.Windows.Forms.TextBox Admin_Haslo_Textbox;
+        private System.Windows.Forms.TextBox Admin_Login_Textbox;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox Index_Number_textbox;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.Label label33;
     }
 }
 

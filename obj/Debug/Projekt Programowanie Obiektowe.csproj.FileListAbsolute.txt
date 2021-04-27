@@ -19,3 +19,6 @@ D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiek
 D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.csproj.CopyComplete
 D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.exe
 D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.pdb
+D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt_Programowanie_Obiektowe.Okienko_Admin.resources
+D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt_Programowanie_Obiektowe.Okienko_Rektor.resources
+D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt_Programowanie_Obiektowe.EdycjaDanych.resources

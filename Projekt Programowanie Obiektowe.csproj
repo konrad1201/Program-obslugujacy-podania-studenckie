@@ -53,16 +53,43 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Class2.cs" />
     <Compile Include="Class3.cs" />
+    <Compile Include="EdycjaDanych.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdycjaDanych.Designer.cs">
+      <DependentUpon>EdycjaDanych.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Okienko_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Okienko_Admin.Designer.cs">
+      <DependentUpon>Okienko_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Okienko_Rektor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Okienko_Rektor.Designer.cs">
+      <DependentUpon>Okienko_Rektor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EdycjaDanych.resx">
+      <DependentUpon>EdycjaDanych.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Okienko_Admin.resx">
+      <DependentUpon>Okienko_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Okienko_Rektor.resx">
+      <DependentUpon>Okienko_Rektor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
