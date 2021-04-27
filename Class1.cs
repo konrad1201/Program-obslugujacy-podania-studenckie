@@ -10,8 +10,8 @@ namespace Projekt_Programowanie_Obiektowe
 {
     public class Student
     {
-        private string Name;
-        private string Surname;
+        private string FirstName;
+        private string LastName;
         private int Department;
         private int Year;
         private int Semester;
@@ -22,20 +22,29 @@ namespace Projekt_Programowanie_Obiektowe
         private string Bank_Account_Number;
         private double Distance;
 
+        private string myVar;
+
+        public string FullInfo
+        {
+            get
+            {
+                return $"{FirstName} {LastName}";
+            }
+        }
 
 
         public string Name_p
         {
             get
             {
-                return Name;
+                return FirstName;
             }
 
 
 
             set
             {
-                Name = value;
+                FirstName = value;
             }
         }
 
@@ -43,14 +52,14 @@ namespace Projekt_Programowanie_Obiektowe
         {
             get
             {
-                return Surname;
+                return LastName;
             }
 
 
 
             set
             {
-                Surname = value;
+                LastName = value;
             }
         }
 

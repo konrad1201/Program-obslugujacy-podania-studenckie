@@ -1,0 +1,21 @@
+C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\bin\Debug\Projekt Programowanie Obiektowe.exe.config
+C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\bin\Debug\Projekt Programowanie Obiektowe.exe
+C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\bin\Debug\Projekt Programowanie Obiektowe.pdb
+C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.csprojAssemblyReference.cache
+C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\obj\Debug\Projekt_Programowanie_Obiektowe.Form1.resources
+C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\obj\Debug\Projekt_Programowanie_Obiektowe.Properties.Resources.resources
+C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.csproj.GenerateResource.cache
+C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.exe
+C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.pdb
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\Projekt Programowanie Obiektowe.exe.config
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\Projekt Programowanie Obiektowe.exe
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\Projekt Programowanie Obiektowe.pdb
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\Dapper.dll
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\Dapper.xml
+D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.csprojAssemblyReference.cache
+D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt_Programowanie_Obiektowe.Form1.resources
+D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt_Programowanie_Obiektowe.Properties.Resources.resources
+D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.csproj.GenerateResource.cache
+D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.csproj.CopyComplete
+D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.exe
+D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.pdb
