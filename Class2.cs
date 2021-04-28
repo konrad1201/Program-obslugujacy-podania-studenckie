@@ -5,25 +5,26 @@ using System.Text;
 using System.Threading.Tasks;
 using Dapper;
 using System.Data;
+using MySql.Data.MySqlClient;
 
 namespace Projekt_Programowanie_Obiektowe
 {
     public class DataAccess
     {
-     public List<Student> GetPeople()
+     public List<Student> GetPeople(int department_choice)
         {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("StudenciDB")))
+            using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
             {
-                var output = connection.Query<Student>($"select * from DaneRektor  ").ToList();
+                var output = connection.Query<Student>($"select * from Studenci where Department = '{department_choice}' ").ToList();
                 return output;
             }
         }
 
         public void SendStudent(string FN, string LN, int DP, int IN, int SL, int Y, string Avg, int Ach, int Def, int sem, string Bank)
         {                       
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("StudenciDB")))
+            using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
             {
-                connection.Execute($"INSERT INTO dbo.DaneRektor (FirstName,LastName,Department,Index_Number,Study_Level,Year,Average,Achievements,Deficit,Semester,Bank_Account_Number) VALUES ('{FN}', '{LN}', '{DP}','{IN}','{SL}','{Y}','{Avg}','{Ach}','{Def}','{sem}','{Bank}')");
+                connection.Execute($"INSERT INTO Studenci (FirstName,LastName,Department,Index_Number,Study_Level,Year,Average,Achievements,Deficit,Semester,Bank_Account_Number) VALUES ('{FN}', '{LN}', '{DP}','{IN}','{SL}','{Y}','{Avg}','{Ach}','{Def}','{sem}','{Bank}')");
 
             }
         }

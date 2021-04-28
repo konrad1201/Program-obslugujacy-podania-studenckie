@@ -73,15 +73,7 @@ namespace Projekt_Programowanie_Obiektowe
                 db.SendStudent(S_obj.FirstName_P, S_obj.LastName_p, S_obj.Department_p, S_obj.Index_Number_P, S_obj.Study_Level_p, S_obj.Year_p, S_obj.Average_P, S_obj.Achievements_P, S_obj.Deficit_P, S_obj.Semester_P, S_obj.Bank_Account_Number_p);
             }
         }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            DataAccess db = new DataAccess();
-            people = db.GetPeople();
-           // listBox1.DataSource = people;
-            //listBox1.DisplayMember = "FullInfo";
-        }
-
-        
+          
 
         private void Admin_Log_Button_Click(object sender, EventArgs e)
         {

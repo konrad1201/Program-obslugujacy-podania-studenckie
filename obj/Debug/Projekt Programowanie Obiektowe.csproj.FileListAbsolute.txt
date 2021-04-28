@@ -22,3 +22,30 @@ D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiek
 D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt_Programowanie_Obiektowe.Okienko_Admin.resources
 D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt_Programowanie_Obiektowe.Okienko_Rektor.resources
 D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt_Programowanie_Obiektowe.EdycjaDanych.resources
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\Projekt Programowanie Obiektowe.exe.manifest
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\Projekt Programowanie Obiektowe.application
+D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.exe.manifest
+D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.application
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\BouncyCastle.Crypto.dll
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\Google.Protobuf.dll
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\K4os.Compression.LZ4.dll
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\K4os.Hash.xxHash.dll
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\MySql.Data.dll
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\System.Buffers.dll
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\System.Memory.dll
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\System.Numerics.Vectors.dll
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\Ubiety.Dns.Core.dll
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\Zstandard.Net.dll
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\Google.Protobuf.pdb
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\Google.Protobuf.xml
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\K4os.Compression.LZ4.xml
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\K4os.Hash.xxHash.xml
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\MySql.Data.xml
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\System.Buffers.xml
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\System.Memory.xml
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\System.Numerics.Vectors.xml
+D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.exe.config

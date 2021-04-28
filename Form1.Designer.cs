@@ -33,7 +33,6 @@
             this.Rektora_wybor = new System.Windows.Forms.TabPage();
             this.Index_Number_textbox = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.Rektor_Button_Send = new System.Windows.Forms.Button();
             this.Bank_account_textBox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -134,7 +133,6 @@
             this.Rektora_wybor.BackColor = System.Drawing.Color.Maroon;
             this.Rektora_wybor.Controls.Add(this.Index_Number_textbox);
             this.Rektora_wybor.Controls.Add(this.label31);
-            this.Rektora_wybor.Controls.Add(this.button2);
             this.Rektora_wybor.Controls.Add(this.Rektor_Button_Send);
             this.Rektora_wybor.Controls.Add(this.Bank_account_textBox);
             this.Rektora_wybor.Controls.Add(this.label10);
@@ -180,16 +178,6 @@
             this.label31.Size = new System.Drawing.Size(165, 26);
             this.label31.TabIndex = 25;
             this.label31.Text = "Numer indeksu:";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(221, 339);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(126, 44);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Rektor_Button_Send
             // 
@@ -982,7 +970,6 @@
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Button Rektor_Button_Send;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Button Admin_Log_Button;
         private System.Windows.Forms.TextBox Admin_Haslo_Textbox;

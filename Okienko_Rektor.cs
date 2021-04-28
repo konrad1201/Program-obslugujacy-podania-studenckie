@@ -20,14 +20,16 @@ namespace Projekt_Programowanie_Obiektowe
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(numericUpDown1.Value>=1 && numericUpDown1.Value < 14)
+            if (numericUpDown1.Value >= 1 && numericUpDown1.Value < 14)
             {
+                int department_choice = Convert.ToInt32(numericUpDown1.Value);
                 List<Student> studenci = new List<Student>();
                 DataAccess db = new DataAccess();
-                studenci = db.GetPeople();
+                studenci = db.GetPeople(department_choice);
                 listBox1.DataSource = studenci;
                 listBox1.DisplayMember = "FullInfo";
             }
+            else MessageBox.Show("Przekroczono możliwą liczbę wydziału");
         }
     }
 }
