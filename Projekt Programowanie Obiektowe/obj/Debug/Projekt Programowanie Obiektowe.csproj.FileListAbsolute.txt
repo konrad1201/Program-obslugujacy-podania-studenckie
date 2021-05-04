@@ -1,9 +1,0 @@
-C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\bin\Debug\Projekt Programowanie Obiektowe.exe.config
-C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\bin\Debug\Projekt Programowanie Obiektowe.exe
-C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\bin\Debug\Projekt Programowanie Obiektowe.pdb
-C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.csprojAssemblyReference.cache
-C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\obj\Debug\Projekt_Programowanie_Obiektowe.Form1.resources
-C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\obj\Debug\Projekt_Programowanie_Obiektowe.Properties.Resources.resources
-C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.csproj.GenerateResource.cache
-C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.exe
-C:\Users\Konrad\source\repos\Projekt Programowanie Obiektowe\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.pdb
