@@ -12,5 +12,7 @@ namespace WebApplication5
         public int Semester { get; set; }
         public int Index_Number { get; set; }
         public double Average { get; set; }
+        public float Achievements { get; set; }
+        public float sps { get; set; }
     }
 }

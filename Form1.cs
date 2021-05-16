@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace Projekt_Programowanie_Obiektowe
 {
@@ -60,8 +61,10 @@ namespace Projekt_Programowanie_Obiektowe
             S_obj.Deficit_P = Convert.ToInt32(deficit_textbox.Text);
             S_obj.Average_P = Convert.ToString(average_textbox.Text);
             S_obj.Semester_P = Convert.ToInt32(Semester_textbox.Text);
-            S_obj.Achievements_P = Convert.ToInt32(achievements_textbox.Text);
+            S_obj.Achievements_P = Convert.ToString(achievements_textbox.Text);
             S_obj.Bank_Account_Number_p = Convert.ToString(Bank_account_textBox.Text);
+            S_obj.Points_p = Convert.ToString((0.6 * Convert.ToDouble(S_obj.Average_P.Replace(".",","))) + (0.4 *Convert.ToDouble( S_obj.Achievements_P)));
+
 
             if (S_obj.Deficit_P > 0)
             {
@@ -70,7 +73,7 @@ namespace Projekt_Programowanie_Obiektowe
             else
             {
                 DataAccess db = new DataAccess();
-                db.SendStudent(S_obj.FirstName_P, S_obj.LastName_p, S_obj.Department_p, S_obj.Index_Number_P, S_obj.Study_Level_p, S_obj.Year_p, S_obj.Average_P, S_obj.Achievements_P, S_obj.Deficit_P, S_obj.Semester_P, S_obj.Bank_Account_Number_p);
+                db.SendStudent(S_obj.FirstName_P, S_obj.LastName_p, S_obj.Department_p, S_obj.Index_Number_P, S_obj.Study_Level_p, S_obj.Year_p, S_obj.Average_P, S_obj.Achievements_P, S_obj.Deficit_P, S_obj.Semester_P, S_obj.Bank_Account_Number_p,S_obj.Points_p);
             }
         }
           

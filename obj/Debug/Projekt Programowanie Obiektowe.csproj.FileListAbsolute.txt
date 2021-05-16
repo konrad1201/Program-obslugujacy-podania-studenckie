@@ -49,3 +49,32 @@ D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\System.Memory.xml
 D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\System.Numerics.Vectors.xml
 D:\projekt\Projekt Programowanie Obiektowe\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\projekt\Projekt Programowanie Obiektowe\obj\Debug\Projekt Programowanie Obiektowe.exe.config
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Projekt Programowanie Obiektowe.exe.config
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Projekt Programowanie Obiektowe.exe.manifest
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Projekt Programowanie Obiektowe.application
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Projekt Programowanie Obiektowe.exe
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Projekt Programowanie Obiektowe.pdb
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\System.Buffers.dll
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\System.Memory.dll
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\System.Numerics.Vectors.dll
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Dapper.xml
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Google.Protobuf.pdb
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Google.Protobuf.xml
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\K4os.Compression.LZ4.xml
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\K4os.Hash.xxHash.xml
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\MySql.Data.xml
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.csprojAssemblyReference.cache
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.exe.config
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt_Programowanie_Obiektowe.EdycjaDanych.resources
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt_Programowanie_Obiektowe.Form1.resources
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt_Programowanie_Obiektowe.Okienko_Admin.resources
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt_Programowanie_Obiektowe.Okienko_Rektor.resources
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt_Programowanie_Obiektowe.Properties.Resources.resources
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.csproj.GenerateResource.cache
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.exe.manifest
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.application
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.csproj.CopyComplete
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.exe
+D:\ASP\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.pdb

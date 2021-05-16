@@ -22,8 +22,9 @@ namespace Projekt_Programowanie_Obiektowe
         private int Family_Members;
         private string Bank_Account_Number;
         private double Distance;
-        private int Achievements;
+        private string Achievements;
         private int Deficit;
+        private string Points;
 
         private string myVar;
 
@@ -36,7 +37,7 @@ namespace Projekt_Programowanie_Obiektowe
         }
 
 
-        public int Achievements_P
+        public string Achievements_P
         {
             get
             {
@@ -209,7 +210,20 @@ namespace Projekt_Programowanie_Obiektowe
             }
         }
 
+        public string Points_p
+        {
+            get
+            {
+                return Points;
+            }
 
+
+
+            set
+            {
+                Points = value;
+            }
+        }
 
         public int Study_Level_p
         {

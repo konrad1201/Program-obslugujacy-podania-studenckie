@@ -20,11 +20,11 @@ namespace Projekt_Programowanie_Obiektowe
             }
         }
 
-        public void SendStudent(string FN, string LN, int DP, int IN, int SL, int Y, string Avg, int Ach, int Def, int sem, string Bank)
+        public void SendStudent(string FN, string LN, int DP, int IN, int SL, int Y, string Avg, string Ach, int Def, int sem, string Bank, string sps)
         {                       
             using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
             {
-                connection.Execute($"INSERT INTO Studenci (FirstName,LastName,Department,Index_Number,Study_Level,Year,Average,Achievements,Deficit,Semester,Bank_Account_Number) VALUES ('{FN}', '{LN}', '{DP}','{IN}','{SL}','{Y}','{Avg}','{Ach}','{Def}','{sem}','{Bank}')");
+                connection.Execute($"INSERT INTO Studenci (FirstName,LastName,Department,Index_Number,Study_Level,Year,Average,Achievements,Deficit,Semester,Bank_Account_Number,sps) VALUES ('{FN}', '{LN}', '{DP}','{IN}','{SL}','{Y}','{Avg}','{Ach}','{Def}','{sem}','{Bank}','{sps}')");
 
             }
         }
