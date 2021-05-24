@@ -21,35 +21,48 @@ namespace WebApplication5
             GridView4.DataSource = null;
             if (TextBox1.Text != "")
             {
-                int numer_indeksu = Convert.ToInt32(TextBox1.Text);
-
-                var lista = new List<Socjalne_Studenci>();
-
-
-                using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
+                try
                 {
-                    lista = connection.Query<Socjalne_Studenci>($"select Department, Index_Number, Year, Semester, Income " +
-                        $" from Studenci  where( Index_Number ='{numer_indeksu}' and Income!=0 )   ").ToList();
+
+
+                    int numer_indeksu = Convert.ToInt32(TextBox1.Text);
+
+                    var lista = new List<Socjalne_Studenci>();
+
+
+                    using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
+                    {
+                        lista = connection.Query<Socjalne_Studenci>($"select Department, Index_Number, Year, Semester, Income " +
+                            $" from Studenci  where( Index_Number ='{numer_indeksu}' and Income!=0 )   ").ToList();
+
+                    }
+
+                    if (lista[0].Income < 300)
+                    {
+                        GridView4.DataSource = lista;
+                        GridView4.DataBind();
+                        GridView5.DataSource = null;
+                        GridView5.DataBind();
+                    }
+                    else
+                    {
+                        GridView5.DataSource = lista;
+                        GridView5.DataBind();
+                        GridView4.DataSource = null;
+                        GridView4.DataBind();
+
+                    }
 
                 }
-
-                if( lista[0].Income < 300)
+                catch (System.ArgumentOutOfRangeException)
                 {
-                  GridView4.DataSource = lista;
-                  GridView4.DataBind();
-                    GridView5.DataSource = null;
-                    GridView5.DataBind();
+                    TextBox1.Text = "Nie ma takiego indeksu";
                 }
-                else
-                {
-                    GridView5.DataSource = lista;
-                    GridView5.DataBind();
-                    GridView4.DataSource = null;
-                    GridView4.DataBind();
 
+                catch (System.FormatException)
+                {
+                    TextBox1.Text = "Wpisz poprawny numer";
                 }
-                     
-                
               
             }
         }

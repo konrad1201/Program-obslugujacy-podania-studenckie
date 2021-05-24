@@ -25,27 +25,35 @@ namespace WebApplication5
         {
             if (TextBox1.Text != "")
             {
-                int wydzial = Convert.ToInt32(TextBox1.Text);
+               try
+               {
 
-                var lista = new List<Studenci_Rektor>();
-                var zakwalfikowani = new List<Studenci_Rektor>();
-                var niezakwalfikowani = new List<Studenci_Rektor>();
-                using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
-                {
-                    lista = connection.Query<Studenci_Rektor>($"select Department, Index_Number, Year, Semester, Average, Achievements, sps" +
-                        $" from Studenci  where( Department ='{wydzial}' and sps>3) order by sps desc ").ToList();
+                    int wydzial = Convert.ToInt32(TextBox1.Text);
 
+                    var lista = new List<Studenci_Rektor>();
+                    var zakwalfikowani = new List<Studenci_Rektor>();
+                    var niezakwalfikowani = new List<Studenci_Rektor>();
+                    using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
+                    {
+                        lista = connection.Query<Studenci_Rektor>($"select Department, Index_Number, Year, Semester, Average, Achievements, sps" +
+                            $" from Studenci  where( Department ='{wydzial}' and sps>3) order by sps desc ").ToList();
+
+                    }
+                    int i = lista.Count();
+                    zakwalfikowani = lista.GetRange(0, i / 3);
+                    niezakwalfikowani = lista.GetRange(i / 3, 2 * i / 3);
+                    GridView1.DataSource = zakwalfikowani;
+                    GridView1.DataBind();
+                    GridView3.DataSource = niezakwalfikowani;
+                    GridView3.DataBind();
                 }
-                int i = lista.Count();
-                zakwalfikowani = lista.GetRange(0, i/2);
-                niezakwalfikowani = lista.GetRange(i/2, i/2);
-                GridView1.DataSource = zakwalfikowani;
-                GridView1.DataBind();
-                GridView3.DataSource = niezakwalfikowani;
-                GridView3.DataBind();
-            }
-        }
+                catch(System.FormatException)
+                {
 
+                    TextBox1.Text = "Wpisz liczbe od 1 do 13";
+                }
+        }
+        }
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 

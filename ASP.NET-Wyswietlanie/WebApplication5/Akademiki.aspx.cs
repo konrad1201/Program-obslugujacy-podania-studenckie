@@ -23,25 +23,34 @@ namespace WebApplication5
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if (TextBox1.Text != "")
+            try
             {
-                int wydzial = Convert.ToInt32(TextBox1.Text);
 
-                var lista = new List<Akademiki_Studenci>();
-                var zakwalfikowani = new List<Akademiki_Studenci>();
-               
-                using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
+
+                if (TextBox1.Text != "")
                 {
-                    lista = connection.Query<Akademiki_Studenci>($"select Department, Index_Number, Year, Semester, Distance" +
-                        $" from Studenci  where( Department ='{wydzial}' and Distance>40 )   order by Distance desc ").ToList();
+                    int wydzial = Convert.ToInt32(TextBox1.Text);
+
+                    var lista = new List<Akademiki_Studenci>();
+                    var zakwalfikowani = new List<Akademiki_Studenci>();
+
+                    using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
+                    {
+                        lista = connection.Query<Akademiki_Studenci>($"select Department, Index_Number, Year, Semester, Distance" +
+                            $" from Studenci  where( Department ='{wydzial}' and Distance>40 )   order by Distance desc ").ToList();
+
+                    }
+                    int i = lista.Count();
+                    zakwalfikowani = lista.GetRange(0, i);
+
+                    GridView2.DataSource = zakwalfikowani;
+                    GridView2.DataBind();
 
                 }
-                int i = lista.Count();
-                zakwalfikowani = lista.GetRange(0, i);
-                
-                GridView2.DataSource = zakwalfikowani;
-                GridView2.DataBind();
-                
+            }
+            catch (System.FormatException)
+            {
+                TextBox1.Text = "Wpisz liczbe od 1 do 13";
             }
         }
     }
