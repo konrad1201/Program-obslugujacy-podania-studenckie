@@ -55,48 +55,46 @@
             this.Name_textbox = new System.Windows.Forms.TextBox();
             this.Imie_label = new System.Windows.Forms.Label();
             this.Socjalne_wyb = new System.Windows.Forms.TabPage();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.Socjalne_Button_Send = new System.Windows.Forms.Button();
+            this.S_Index_Number_textbox = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
-            this.S_Bank_Account_textbox = new System.Windows.Forms.TextBox();
+            this.S_Bank_account_textBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.S_Family_Members_textbox = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.S_Family_Money_textbox = new System.Windows.Forms.TextBox();
+            this.S_Income_textbox = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.S_Semester_textbox = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.S_Faculty_textBox7 = new System.Windows.Forms.TextBox();
+            this.S_Department_textbox = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.S_Surname_textbox = new System.Windows.Forms.TextBox();
+            this.S_surname_textbox = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.S_Level_Textbox = new System.Windows.Forms.TextBox();
+            this.S_Study_level_textbox = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.S_Year_textbox = new System.Windows.Forms.TextBox();
+            this.S_year_textbox = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.S_Name_textBox11 = new System.Windows.Forms.TextBox();
+            this.S_Name_textbox = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.Akademiki_Button_Send = new System.Windows.Forms.Button();
+            this.A_Index_Number_textbox = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.A_Bank_account_textBox = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.A_Distance_textbox = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.A_Income_textbox = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.A_Semester_textbox = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.A_Department_textbox = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.A_surname_textbox = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.A_Study_level_textbox = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.A_year_textbox = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.A_Name_textbox = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.Admin_Log_Button = new System.Windows.Forms.Button();
@@ -372,25 +370,24 @@
             // Socjalne_wyb
             // 
             this.Socjalne_wyb.BackColor = System.Drawing.Color.Maroon;
-            this.Socjalne_wyb.Controls.Add(this.textBox13);
+            this.Socjalne_wyb.Controls.Add(this.Socjalne_Button_Send);
+            this.Socjalne_wyb.Controls.Add(this.S_Index_Number_textbox);
             this.Socjalne_wyb.Controls.Add(this.label32);
-            this.Socjalne_wyb.Controls.Add(this.S_Bank_Account_textbox);
+            this.Socjalne_wyb.Controls.Add(this.S_Bank_account_textBox);
             this.Socjalne_wyb.Controls.Add(this.label1);
-            this.Socjalne_wyb.Controls.Add(this.S_Family_Members_textbox);
-            this.Socjalne_wyb.Controls.Add(this.label12);
-            this.Socjalne_wyb.Controls.Add(this.S_Family_Money_textbox);
+            this.Socjalne_wyb.Controls.Add(this.S_Income_textbox);
             this.Socjalne_wyb.Controls.Add(this.label13);
             this.Socjalne_wyb.Controls.Add(this.S_Semester_textbox);
             this.Socjalne_wyb.Controls.Add(this.label14);
-            this.Socjalne_wyb.Controls.Add(this.S_Faculty_textBox7);
+            this.Socjalne_wyb.Controls.Add(this.S_Department_textbox);
             this.Socjalne_wyb.Controls.Add(this.label15);
-            this.Socjalne_wyb.Controls.Add(this.S_Surname_textbox);
+            this.Socjalne_wyb.Controls.Add(this.S_surname_textbox);
             this.Socjalne_wyb.Controls.Add(this.label16);
-            this.Socjalne_wyb.Controls.Add(this.S_Level_Textbox);
+            this.Socjalne_wyb.Controls.Add(this.S_Study_level_textbox);
             this.Socjalne_wyb.Controls.Add(this.label17);
-            this.Socjalne_wyb.Controls.Add(this.S_Year_textbox);
+            this.Socjalne_wyb.Controls.Add(this.S_year_textbox);
             this.Socjalne_wyb.Controls.Add(this.label18);
-            this.Socjalne_wyb.Controls.Add(this.S_Name_textBox11);
+            this.Socjalne_wyb.Controls.Add(this.S_Name_textbox);
             this.Socjalne_wyb.Controls.Add(this.label19);
             this.Socjalne_wyb.Location = new System.Drawing.Point(4, 35);
             this.Socjalne_wyb.Margin = new System.Windows.Forms.Padding(2);
@@ -401,70 +398,62 @@
             this.Socjalne_wyb.Text = "Stypendium Socjalne";
             this.Socjalne_wyb.Click += new System.EventHandler(this.tabPage2_Click);
             // 
-            // textBox13
+            // Socjalne_Button_Send
             // 
-            this.textBox13.Location = new System.Drawing.Point(728, 220);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(110, 32);
-            this.textBox13.TabIndex = 43;
+            this.Socjalne_Button_Send.Location = new System.Drawing.Point(361, 297);
+            this.Socjalne_Button_Send.Name = "Socjalne_Button_Send";
+            this.Socjalne_Button_Send.Size = new System.Drawing.Size(111, 44);
+            this.Socjalne_Button_Send.TabIndex = 65;
+            this.Socjalne_Button_Send.Text = "Wyślij";
+            this.Socjalne_Button_Send.UseVisualStyleBackColor = true;
+            this.Socjalne_Button_Send.Click += new System.EventHandler(this.Socjalne_Button_Send_Click);
+            // 
+            // S_Index_Number_textbox
+            // 
+            this.S_Index_Number_textbox.Location = new System.Drawing.Point(729, 142);
+            this.S_Index_Number_textbox.Name = "S_Index_Number_textbox";
+            this.S_Index_Number_textbox.Size = new System.Drawing.Size(110, 32);
+            this.S_Index_Number_textbox.TabIndex = 43;
             // 
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(557, 223);
+            this.label32.Location = new System.Drawing.Point(553, 142);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(165, 26);
             this.label32.TabIndex = 42;
             this.label32.Text = "Numer indeksu:";
             // 
-            // S_Bank_Account_textbox
+            // S_Bank_account_textBox
             // 
-            this.S_Bank_Account_textbox.Location = new System.Drawing.Point(362, 270);
-            this.S_Bank_Account_textbox.Margin = new System.Windows.Forms.Padding(2);
-            this.S_Bank_Account_textbox.Name = "S_Bank_Account_textbox";
-            this.S_Bank_Account_textbox.Size = new System.Drawing.Size(478, 32);
-            this.S_Bank_Account_textbox.TabIndex = 41;
+            this.S_Bank_account_textBox.Location = new System.Drawing.Point(361, 239);
+            this.S_Bank_account_textBox.Margin = new System.Windows.Forms.Padding(2);
+            this.S_Bank_account_textBox.Name = "S_Bank_account_textBox";
+            this.S_Bank_account_textBox.Size = new System.Drawing.Size(478, 32);
+            this.S_Bank_account_textBox.TabIndex = 41;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(155, 270);
+            this.label1.Location = new System.Drawing.Point(153, 239);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(194, 26);
             this.label1.TabIndex = 40;
             this.label1.Text = "Numer Rachunku :";
             // 
-            // S_Family_Members_textbox
+            // S_Income_textbox
             // 
-            this.S_Family_Members_textbox.Location = new System.Drawing.Point(730, 183);
-            this.S_Family_Members_textbox.Margin = new System.Windows.Forms.Padding(2);
-            this.S_Family_Members_textbox.Name = "S_Family_Members_textbox";
-            this.S_Family_Members_textbox.Size = new System.Drawing.Size(111, 32);
-            this.S_Family_Members_textbox.TabIndex = 37;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(477, 186);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(244, 26);
-            this.label12.TabIndex = 36;
-            this.label12.Text = "Liczba osób w rodzinie :";
-            // 
-            // S_Family_Money_textbox
-            // 
-            this.S_Family_Money_textbox.Location = new System.Drawing.Point(362, 181);
-            this.S_Family_Money_textbox.Margin = new System.Windows.Forms.Padding(2);
-            this.S_Family_Money_textbox.Name = "S_Family_Money_textbox";
-            this.S_Family_Money_textbox.Size = new System.Drawing.Size(111, 32);
-            this.S_Family_Money_textbox.TabIndex = 35;
+            this.S_Income_textbox.Location = new System.Drawing.Point(361, 187);
+            this.S_Income_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.S_Income_textbox.Name = "S_Income_textbox";
+            this.S_Income_textbox.Size = new System.Drawing.Size(111, 32);
+            this.S_Income_textbox.TabIndex = 35;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(137, 181);
+            this.label13.Location = new System.Drawing.Point(140, 187);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(203, 26);
@@ -473,7 +462,7 @@
             // 
             // S_Semester_textbox
             // 
-            this.S_Semester_textbox.Location = new System.Drawing.Point(730, 141);
+            this.S_Semester_textbox.Location = new System.Drawing.Point(728, 191);
             this.S_Semester_textbox.Margin = new System.Windows.Forms.Padding(2);
             this.S_Semester_textbox.Name = "S_Semester_textbox";
             this.S_Semester_textbox.Size = new System.Drawing.Size(111, 32);
@@ -482,20 +471,20 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(618, 141);
+            this.label14.Location = new System.Drawing.Point(602, 187);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(106, 26);
             this.label14.TabIndex = 32;
             this.label14.Text = "Semestr :";
             // 
-            // S_Faculty_textBox7
+            // S_Department_textbox
             // 
-            this.S_Faculty_textBox7.Location = new System.Drawing.Point(362, 89);
-            this.S_Faculty_textBox7.Margin = new System.Windows.Forms.Padding(2);
-            this.S_Faculty_textBox7.Name = "S_Faculty_textBox7";
-            this.S_Faculty_textBox7.Size = new System.Drawing.Size(111, 32);
-            this.S_Faculty_textBox7.TabIndex = 31;
+            this.S_Department_textbox.Location = new System.Drawing.Point(362, 89);
+            this.S_Department_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.S_Department_textbox.Name = "S_Department_textbox";
+            this.S_Department_textbox.Size = new System.Drawing.Size(111, 32);
+            this.S_Department_textbox.TabIndex = 31;
             // 
             // label15
             // 
@@ -507,13 +496,13 @@
             this.label15.TabIndex = 30;
             this.label15.Text = "Wydział :";
             // 
-            // S_Surname_textbox
+            // S_surname_textbox
             // 
-            this.S_Surname_textbox.Location = new System.Drawing.Point(728, 46);
-            this.S_Surname_textbox.Margin = new System.Windows.Forms.Padding(2);
-            this.S_Surname_textbox.Name = "S_Surname_textbox";
-            this.S_Surname_textbox.Size = new System.Drawing.Size(111, 32);
-            this.S_Surname_textbox.TabIndex = 29;
+            this.S_surname_textbox.Location = new System.Drawing.Point(728, 46);
+            this.S_surname_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.S_surname_textbox.Name = "S_surname_textbox";
+            this.S_surname_textbox.Size = new System.Drawing.Size(111, 32);
+            this.S_surname_textbox.TabIndex = 29;
             // 
             // label16
             // 
@@ -525,13 +514,13 @@
             this.label16.TabIndex = 28;
             this.label16.Text = "Nazwisko :";
             // 
-            // S_Level_Textbox
+            // S_Study_level_textbox
             // 
-            this.S_Level_Textbox.Location = new System.Drawing.Point(730, 94);
-            this.S_Level_Textbox.Margin = new System.Windows.Forms.Padding(2);
-            this.S_Level_Textbox.Name = "S_Level_Textbox";
-            this.S_Level_Textbox.Size = new System.Drawing.Size(111, 32);
-            this.S_Level_Textbox.TabIndex = 27;
+            this.S_Study_level_textbox.Location = new System.Drawing.Point(728, 91);
+            this.S_Study_level_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.S_Study_level_textbox.Name = "S_Study_level_textbox";
+            this.S_Study_level_textbox.Size = new System.Drawing.Size(111, 32);
+            this.S_Study_level_textbox.TabIndex = 27;
             // 
             // label17
             // 
@@ -543,13 +532,13 @@
             this.label17.TabIndex = 26;
             this.label17.Text = "Stopień studiów:";
             // 
-            // S_Year_textbox
+            // S_year_textbox
             // 
-            this.S_Year_textbox.Location = new System.Drawing.Point(362, 136);
-            this.S_Year_textbox.Margin = new System.Windows.Forms.Padding(2);
-            this.S_Year_textbox.Name = "S_Year_textbox";
-            this.S_Year_textbox.Size = new System.Drawing.Size(111, 32);
-            this.S_Year_textbox.TabIndex = 25;
+            this.S_year_textbox.Location = new System.Drawing.Point(362, 136);
+            this.S_year_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.S_year_textbox.Name = "S_year_textbox";
+            this.S_year_textbox.Size = new System.Drawing.Size(111, 32);
+            this.S_year_textbox.TabIndex = 25;
             // 
             // label18
             // 
@@ -561,13 +550,13 @@
             this.label18.TabIndex = 24;
             this.label18.Text = "Rok studiów :";
             // 
-            // S_Name_textBox11
+            // S_Name_textbox
             // 
-            this.S_Name_textBox11.Location = new System.Drawing.Point(362, 46);
-            this.S_Name_textBox11.Margin = new System.Windows.Forms.Padding(2);
-            this.S_Name_textBox11.Name = "S_Name_textBox11";
-            this.S_Name_textBox11.Size = new System.Drawing.Size(111, 32);
-            this.S_Name_textBox11.TabIndex = 23;
+            this.S_Name_textbox.Location = new System.Drawing.Point(362, 46);
+            this.S_Name_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.S_Name_textbox.Name = "S_Name_textbox";
+            this.S_Name_textbox.Size = new System.Drawing.Size(111, 32);
+            this.S_Name_textbox.TabIndex = 23;
             // 
             // label19
             // 
@@ -582,27 +571,26 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Maroon;
-            this.tabPage3.Controls.Add(this.textBox14);
+            this.tabPage3.Controls.Add(this.Akademiki_Button_Send);
+            this.tabPage3.Controls.Add(this.A_Index_Number_textbox);
             this.tabPage3.Controls.Add(this.label33);
-            this.tabPage3.Controls.Add(this.textBox1);
+            this.tabPage3.Controls.Add(this.A_Bank_account_textBox);
             this.tabPage3.Controls.Add(this.label20);
-            this.tabPage3.Controls.Add(this.textBox2);
+            this.tabPage3.Controls.Add(this.A_Distance_textbox);
             this.tabPage3.Controls.Add(this.label21);
-            this.tabPage3.Controls.Add(this.textBox3);
-            this.tabPage3.Controls.Add(this.label22);
-            this.tabPage3.Controls.Add(this.textBox4);
+            this.tabPage3.Controls.Add(this.A_Income_textbox);
             this.tabPage3.Controls.Add(this.label23);
-            this.tabPage3.Controls.Add(this.textBox5);
+            this.tabPage3.Controls.Add(this.A_Semester_textbox);
             this.tabPage3.Controls.Add(this.label24);
-            this.tabPage3.Controls.Add(this.textBox7);
+            this.tabPage3.Controls.Add(this.A_Department_textbox);
             this.tabPage3.Controls.Add(this.label25);
-            this.tabPage3.Controls.Add(this.textBox8);
+            this.tabPage3.Controls.Add(this.A_surname_textbox);
             this.tabPage3.Controls.Add(this.label26);
-            this.tabPage3.Controls.Add(this.textBox9);
+            this.tabPage3.Controls.Add(this.A_Study_level_textbox);
             this.tabPage3.Controls.Add(this.label27);
-            this.tabPage3.Controls.Add(this.textBox10);
+            this.tabPage3.Controls.Add(this.A_year_textbox);
             this.tabPage3.Controls.Add(this.label28);
-            this.tabPage3.Controls.Add(this.textBox11);
+            this.tabPage3.Controls.Add(this.A_Name_textbox);
             this.tabPage3.Controls.Add(this.label29);
             this.tabPage3.Location = new System.Drawing.Point(4, 35);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
@@ -612,29 +600,39 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Akademiki";
             // 
-            // textBox14
+            // Akademiki_Button_Send
             // 
-            this.textBox14.Location = new System.Drawing.Point(744, 35);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(110, 32);
-            this.textBox14.TabIndex = 63;
+            this.Akademiki_Button_Send.Location = new System.Drawing.Point(362, 345);
+            this.Akademiki_Button_Send.Name = "Akademiki_Button_Send";
+            this.Akademiki_Button_Send.Size = new System.Drawing.Size(111, 44);
+            this.Akademiki_Button_Send.TabIndex = 64;
+            this.Akademiki_Button_Send.Text = "Wyślij";
+            this.Akademiki_Button_Send.UseVisualStyleBackColor = true;
+            this.Akademiki_Button_Send.Click += new System.EventHandler(this.Akademiki_Button_Send_Click);
+            // 
+            // A_Index_Number_textbox
+            // 
+            this.A_Index_Number_textbox.Location = new System.Drawing.Point(731, 150);
+            this.A_Index_Number_textbox.Name = "A_Index_Number_textbox";
+            this.A_Index_Number_textbox.Size = new System.Drawing.Size(110, 32);
+            this.A_Index_Number_textbox.TabIndex = 63;
             // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(573, 38);
+            this.label33.Location = new System.Drawing.Point(549, 150);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(165, 26);
             this.label33.TabIndex = 62;
             this.label33.Text = "Numer indeksu:";
             // 
-            // textBox1
+            // A_Bank_account_textBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(362, 296);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(478, 32);
-            this.textBox1.TabIndex = 61;
+            this.A_Bank_account_textBox.Location = new System.Drawing.Point(362, 296);
+            this.A_Bank_account_textBox.Margin = new System.Windows.Forms.Padding(2);
+            this.A_Bank_account_textBox.Name = "A_Bank_account_textBox";
+            this.A_Bank_account_textBox.Size = new System.Drawing.Size(478, 32);
+            this.A_Bank_account_textBox.TabIndex = 61;
             // 
             // label20
             // 
@@ -646,13 +644,13 @@
             this.label20.TabIndex = 60;
             this.label20.Text = "Numer Rachunku :";
             // 
-            // textBox2
+            // A_Distance_textbox
             // 
-            this.textBox2.Location = new System.Drawing.Point(362, 250);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(111, 32);
-            this.textBox2.TabIndex = 59;
+            this.A_Distance_textbox.Location = new System.Drawing.Point(362, 250);
+            this.A_Distance_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.A_Distance_textbox.Name = "A_Distance_textbox";
+            this.A_Distance_textbox.Size = new System.Drawing.Size(111, 32);
+            this.A_Distance_textbox.TabIndex = 59;
             // 
             // label21
             // 
@@ -664,31 +662,13 @@
             this.label21.TabIndex = 58;
             this.label21.Text = "Odległość od uczelni(km) :";
             // 
-            // textBox3
+            // A_Income_textbox
             // 
-            this.textBox3.Location = new System.Drawing.Point(730, 247);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(111, 32);
-            this.textBox3.TabIndex = 57;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(477, 250);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(244, 26);
-            this.label22.TabIndex = 56;
-            this.label22.Text = "Liczba osób w rodzinie :";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(362, 206);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(111, 32);
-            this.textBox4.TabIndex = 55;
+            this.A_Income_textbox.Location = new System.Drawing.Point(362, 206);
+            this.A_Income_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.A_Income_textbox.Name = "A_Income_textbox";
+            this.A_Income_textbox.Size = new System.Drawing.Size(111, 32);
+            this.A_Income_textbox.TabIndex = 55;
             // 
             // label23
             // 
@@ -700,108 +680,108 @@
             this.label23.TabIndex = 54;
             this.label23.Text = "Dochód w rodzinie :";
             // 
-            // textBox5
+            // A_Semester_textbox
             // 
-            this.textBox5.Location = new System.Drawing.Point(730, 186);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(111, 32);
-            this.textBox5.TabIndex = 53;
+            this.A_Semester_textbox.Location = new System.Drawing.Point(731, 200);
+            this.A_Semester_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.A_Semester_textbox.Name = "A_Semester_textbox";
+            this.A_Semester_textbox.Size = new System.Drawing.Size(111, 32);
+            this.A_Semester_textbox.TabIndex = 53;
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(618, 186);
+            this.label24.Location = new System.Drawing.Point(608, 200);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(106, 26);
             this.label24.TabIndex = 52;
             this.label24.Text = "Semestr :";
             // 
-            // textBox7
+            // A_Department_textbox
             // 
-            this.textBox7.Location = new System.Drawing.Point(362, 114);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(111, 32);
-            this.textBox7.TabIndex = 51;
+            this.A_Department_textbox.Location = new System.Drawing.Point(362, 99);
+            this.A_Department_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.A_Department_textbox.Name = "A_Department_textbox";
+            this.A_Department_textbox.Size = new System.Drawing.Size(111, 32);
+            this.A_Department_textbox.TabIndex = 51;
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(243, 114);
+            this.label25.Location = new System.Drawing.Point(236, 99);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(101, 26);
             this.label25.TabIndex = 50;
             this.label25.Text = "Wydział :";
             // 
-            // textBox8
+            // A_surname_textbox
             // 
-            this.textBox8.Location = new System.Drawing.Point(728, 72);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(111, 32);
-            this.textBox8.TabIndex = 49;
+            this.A_surname_textbox.Location = new System.Drawing.Point(730, 50);
+            this.A_surname_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.A_surname_textbox.Name = "A_surname_textbox";
+            this.A_surname_textbox.Size = new System.Drawing.Size(111, 32);
+            this.A_surname_textbox.TabIndex = 49;
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(602, 74);
+            this.label26.Location = new System.Drawing.Point(596, 53);
             this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(118, 26);
             this.label26.TabIndex = 48;
             this.label26.Text = "Nazwisko :";
             // 
-            // textBox9
+            // A_Study_level_textbox
             // 
-            this.textBox9.Location = new System.Drawing.Point(730, 128);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(111, 32);
-            this.textBox9.TabIndex = 47;
+            this.A_Study_level_textbox.Location = new System.Drawing.Point(730, 96);
+            this.A_Study_level_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.A_Study_level_textbox.Name = "A_Study_level_textbox";
+            this.A_Study_level_textbox.Size = new System.Drawing.Size(111, 32);
+            this.A_Study_level_textbox.TabIndex = 47;
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(546, 128);
+            this.label27.Location = new System.Drawing.Point(549, 99);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(172, 26);
             this.label27.TabIndex = 46;
             this.label27.Text = "Stopień studiów:";
             // 
-            // textBox10
+            // A_year_textbox
             // 
-            this.textBox10.Location = new System.Drawing.Point(362, 162);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(111, 32);
-            this.textBox10.TabIndex = 45;
+            this.A_year_textbox.Location = new System.Drawing.Point(362, 156);
+            this.A_year_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.A_year_textbox.Name = "A_year_textbox";
+            this.A_year_textbox.Size = new System.Drawing.Size(111, 32);
+            this.A_year_textbox.TabIndex = 45;
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(200, 162);
+            this.label28.Location = new System.Drawing.Point(197, 156);
             this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(143, 26);
             this.label28.TabIndex = 44;
             this.label28.Text = "Rok studiów :";
             // 
-            // textBox11
+            // A_Name_textbox
             // 
-            this.textBox11.Location = new System.Drawing.Point(362, 72);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(111, 32);
-            this.textBox11.TabIndex = 43;
+            this.A_Name_textbox.Location = new System.Drawing.Point(362, 50);
+            this.A_Name_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.A_Name_textbox.Name = "A_Name_textbox";
+            this.A_Name_textbox.Size = new System.Drawing.Size(111, 32);
+            this.A_Name_textbox.TabIndex = 43;
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(281, 72);
+            this.label29.Location = new System.Drawing.Point(283, 50);
             this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(66, 26);
@@ -931,43 +911,39 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox Name_textbox;
         private System.Windows.Forms.Label Imie_label;
-        private System.Windows.Forms.TextBox S_Bank_Account_textbox;
+        private System.Windows.Forms.TextBox S_Bank_account_textBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox S_Family_Members_textbox;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox S_Family_Money_textbox;
+        private System.Windows.Forms.TextBox S_Income_textbox;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox S_Semester_textbox;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox S_Faculty_textBox7;
+        private System.Windows.Forms.TextBox S_Department_textbox;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox S_Surname_textbox;
+        private System.Windows.Forms.TextBox S_surname_textbox;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox S_Level_Textbox;
+        private System.Windows.Forms.TextBox S_Study_level_textbox;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox S_Year_textbox;
+        private System.Windows.Forms.TextBox S_year_textbox;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox S_Name_textBox11;
+        private System.Windows.Forms.TextBox S_Name_textbox;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox A_Bank_account_textBox;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox A_Distance_textbox;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox A_Income_textbox;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox A_Semester_textbox;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox A_Department_textbox;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox A_surname_textbox;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox A_Study_level_textbox;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox A_year_textbox;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox A_Name_textbox;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Button Rektor_Button_Send;
         private System.Windows.Forms.TabPage tabPage1;
@@ -978,10 +954,12 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox Index_Number_textbox;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox S_Index_Number_textbox;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox A_Index_Number_textbox;
         private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Button Akademiki_Button_Send;
+        private System.Windows.Forms.Button Socjalne_Button_Send;
     }
 }
 

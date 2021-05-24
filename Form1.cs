@@ -92,6 +92,42 @@ namespace Projekt_Programowanie_Obiektowe
 
             
         }
+
+        private void Akademiki_Button_Send_Click(object sender, EventArgs e)
+        {
+            Student S_obj = new Student();
+            S_obj.Department_p = Convert.ToInt32(A_Department_textbox.Text);
+            S_obj.FirstName_P = Convert.ToString(A_Name_textbox.Text);
+            S_obj.LastName_p = Convert.ToString(A_surname_textbox.Text);
+            S_obj.Year_p = Convert.ToInt32(A_year_textbox.Text);
+            S_obj.Index_Number_P = Convert.ToInt32(A_Index_Number_textbox.Text);
+            S_obj.Study_Level_p = Convert.ToInt32(A_Study_level_textbox.Text);           
+            S_obj.Semester_P = Convert.ToInt32(A_Semester_textbox.Text);
+            S_obj.Bank_Account_Number_p = Convert.ToString(A_Bank_account_textBox.Text);
+            S_obj.Distance_P = Convert.ToInt32(A_Distance_textbox.Text);
+            S_obj.Income_P = Convert.ToInt32(A_Income_textbox.Text);
+
+
+            DataAccess db = new DataAccess();
+            db.SendStudent(S_obj.FirstName_P, S_obj.LastName_p, S_obj.Department_p, S_obj.Index_Number_P, S_obj.Study_Level_p, S_obj.Year_p, S_obj.Income_P, S_obj.Distance_P,  S_obj.Semester_P, S_obj.Bank_Account_Number_p);
+        }
+
+        private void Socjalne_Button_Send_Click(object sender, EventArgs e)
+        {
+            Student S_obj = new Student();
+            S_obj.Department_p = Convert.ToInt32(S_Department_textbox.Text);
+            S_obj.FirstName_P = Convert.ToString(S_Name_textbox.Text);
+            S_obj.LastName_p = Convert.ToString(S_surname_textbox.Text);
+            S_obj.Year_p = Convert.ToInt32(S_year_textbox.Text);
+            S_obj.Index_Number_P = Convert.ToInt32(S_Index_Number_textbox.Text);
+            S_obj.Study_Level_p = Convert.ToInt32(S_Study_level_textbox.Text);
+            S_obj.Semester_P = Convert.ToInt32(S_Semester_textbox.Text);
+            S_obj.Bank_Account_Number_p = Convert.ToString(S_Bank_account_textBox.Text);
+            S_obj.Income_P = Convert.ToInt32(S_Income_textbox.Text);
+
+            DataAccess db = new DataAccess();
+            db.SendStudent(S_obj.FirstName_P, S_obj.LastName_p, S_obj.Department_p, S_obj.Index_Number_P, S_obj.Study_Level_p, S_obj.Year_p, S_obj.Income_P, S_obj.Semester_P, S_obj.Bank_Account_Number_p);
+        }
     }
     
 }

@@ -36,9 +36,9 @@ namespace Projekt_Programowanie_Obiektowe
             {
 
                 Lista_do_Edycji = connection.Query<Student>($"SELECT * FROM Studenci where Index_Number = '{numerindeksu}'").ToList();
-                First_Name_textbox.Text = Convert.ToString(Lista_do_Edycji[0].FirstName_P);
+                First_Name_textbox.Text = Lista_do_Edycji[0].FirstName_P;
                 Department_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Department_p);
-                surname_textbox.Text = Convert.ToString(Lista_do_Edycji[0].LastName_p);
+                surname_textbox.Text = Lista_do_Edycji[0].LastName_p;
                 deficit_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Deficit_P);
                 Bank_account_textBox.Text = Convert.ToString(Lista_do_Edycji[0].Bank_Account_Number_p);
                 achievements_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Achievements_P);
@@ -46,6 +46,9 @@ namespace Projekt_Programowanie_Obiektowe
                 Study_level_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Study_Level_p);
                 year_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Year_p);
                 Semester_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Semester_P);
+                Distance_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Distance_P);
+                income_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Income_P);
+                Points_textbox.Text = Lista_do_Edycji[0].Points_p;
             }
         }
 
@@ -57,7 +60,7 @@ namespace Projekt_Programowanie_Obiektowe
                 connection.Execute($"UPDATE Studenci SET FirstName = '{First_Name_textbox.Text}', LastName ='{surname_textbox.Text}'," +
                     $" Department = '{Department_textbox.Text}', Study_Level = '{Study_level_textbox.Text}'," +
                     $" Year = '{year_textbox.Text}', Average = '{average_textbox.Text}', Achievements = '{achievements_textbox.Text}'," +
-                    $" Deficit = '{deficit_textbox.Text}', Semester = '{Semester_textbox.Text}', Bank_Account_Number = '{Bank_account_textBox.Text}' " +
+                    $" Deficit = '{deficit_textbox.Text}', Semester = '{Semester_textbox.Text}', Bank_Account_Number = '{Bank_account_textBox.Text}', Distance = '{Distance_textbox.Text}', Income = '{income_textbox.Text}', sps = '{Points_textbox.Text}' " +
                     $" where Index_Number = {numerindeksu}");
 
             }
@@ -80,6 +83,9 @@ namespace Projekt_Programowanie_Obiektowe
             S_obj.Semester_P = Convert.ToInt32(Semester_textbox.Text);
             S_obj.Achievements_P = Convert.ToString(achievements_textbox.Text);
             S_obj.Bank_Account_Number_p = Convert.ToString(Bank_account_textBox.Text);
+            S_obj.Distance_P = Convert.ToInt32(Distance_textbox.Text);
+            S_obj.Points_p = Convert.ToString(Points_textbox.Text);
+            S_obj.Income_P = Convert.ToInt32(income_textbox.Text);
 
             if (S_obj.Deficit_P > 0)
             {
@@ -88,8 +94,10 @@ namespace Projekt_Programowanie_Obiektowe
             else
             {
                 DataAccess db = new DataAccess();
-                db.SendStudent(S_obj.FirstName_P, S_obj.LastName_p, S_obj.Department_p, S_obj.Index_Number_P, S_obj.Study_Level_p, S_obj.Year_p, S_obj.Average_P, S_obj.Achievements_P, S_obj.Deficit_P, S_obj.Semester_P, S_obj.Bank_Account_Number_p,S_obj.Points_p);
+                db.SendStudent(S_obj.FirstName_P, S_obj.LastName_p, S_obj.Department_p, S_obj.Index_Number_P, S_obj.Study_Level_p, S_obj.Year_p, S_obj.Income_P, S_obj.Distance_P, S_obj.Semester_P, S_obj.Bank_Account_Number_p, S_obj.Average_P, S_obj.Achievements_P, S_obj.Deficit_P, S_obj.Points_p);
             }
         }
+
+       
     }
 }

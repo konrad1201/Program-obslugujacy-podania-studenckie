@@ -28,5 +28,36 @@ namespace Projekt_Programowanie_Obiektowe
 
             }
         }
+
+        public void SendStudent(string FN, string LN, int DP, int IN, int SL, int Y, int Inc, int Dis,  int sem, string Bank)
+        {
+            using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
+            {
+                connection.Execute($"INSERT INTO Studenci (FirstName,LastName,Department,Index_Number,Study_Level,Year,Income,Distance,Semester,Bank_Account_Number) VALUES ('{FN}', '{LN}', '{DP}','{IN}','{SL}','{Y}','{Inc}','{Dis}','{sem}','{Bank}')");
+
+            }
+        }
+
+
+        public void SendStudent(string FN, string LN, int DP, int IN, int SL, int Y,  int Inc, int Dis, int sem, string Bank, string Avg, string Ach, int Def, string sps)
+        {
+            using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
+            {
+                connection.Execute($"INSERT INTO Studenci (FirstName,LastName,Department,Index_Number,Study_Level,Year,Income,Distance,Semester,Bank_Account_Number,Average,Achievements,Deficit,sps) VALUES ('{FN}', '{LN}', '{DP}','{IN}','{SL}','{Y}','{Inc}','{Dis}','{sem}','{Bank}','{Avg}','{Ach}','{Def}','{sps}')");
+
+            }
+        }
+
+
+        public void SendStudent(string FN, string LN, int DP, int IN, int SL, int Y, int Inc, int sem, string Bank)
+        {
+            using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
+            {
+                connection.Execute($"INSERT INTO Studenci (FirstName,LastName,Department,Index_Number,Study_Level,Year,Income,Semester,Bank_Account_Number) VALUES ('{FN}', '{LN}', '{DP}','{IN}','{SL}','{Y}','{Inc}','{sem}','{Bank}')");
+
+            }
+        }
+
+
     }
 }

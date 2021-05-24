@@ -18,14 +18,12 @@ namespace Projekt_Programowanie_Obiektowe
         private int Semester;
         private int Study_Level;
         private string Average;
-        private double Family_Money;
-        private int Family_Members;
         private string Bank_Account_Number;
-        private double Distance;
+        private int Distance;
         private string Achievements;
         private int Deficit;
         private string Points;
-
+        private int Income;
         private string myVar;
 
         public string FullInfo
@@ -36,7 +34,20 @@ namespace Projekt_Programowanie_Obiektowe
             }
         }
 
+        public int Income_P
+        {
+            get
+            {
+                return Income;
+            }
 
+
+
+            set
+            {
+                Income = value;
+            }
+        }
         public string Achievements_P
         {
             get
@@ -67,7 +78,7 @@ namespace Projekt_Programowanie_Obiektowe
             }
         }
 
-        public double Distance_P
+        public int Distance_P
         {
             get
             {

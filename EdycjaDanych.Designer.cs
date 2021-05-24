@@ -54,6 +54,12 @@
             this.Search_for_edition = new System.Windows.Forms.Button();
             this.Change_button = new System.Windows.Forms.Button();
             this.Add_Student_manually = new System.Windows.Forms.Button();
+            this.income_textbox = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.Distance_textbox = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.Points_textbox = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Index_Number_Textbox
@@ -193,7 +199,7 @@
             // 
             // surname_textbox
             // 
-            this.surname_textbox.Location = new System.Drawing.Point(408, 226);
+            this.surname_textbox.Location = new System.Drawing.Point(408, 184);
             this.surname_textbox.Margin = new System.Windows.Forms.Padding(2);
             this.surname_textbox.Name = "surname_textbox";
             this.surname_textbox.Size = new System.Drawing.Size(111, 20);
@@ -202,7 +208,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(345, 233);
+            this.label4.Location = new System.Drawing.Point(345, 191);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 13);
@@ -293,12 +299,72 @@
             this.Add_Student_manually.UseVisualStyleBackColor = true;
             this.Add_Student_manually.Click += new System.EventHandler(this.Add_Student_manually_Click);
             // 
+            // income_textbox
+            // 
+            this.income_textbox.Location = new System.Drawing.Point(408, 230);
+            this.income_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.income_textbox.Name = "income_textbox";
+            this.income_textbox.Size = new System.Drawing.Size(111, 20);
+            this.income_textbox.TabIndex = 51;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(345, 237);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(45, 13);
+            this.label11.TabIndex = 50;
+            this.label11.Text = "Dochód";
+            // 
+            // Distance_textbox
+            // 
+            this.Distance_textbox.Location = new System.Drawing.Point(646, 184);
+            this.Distance_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.Distance_textbox.Name = "Distance_textbox";
+            this.Distance_textbox.Size = new System.Drawing.Size(111, 20);
+            this.Distance_textbox.TabIndex = 53;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(580, 187);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(48, 13);
+            this.label12.TabIndex = 52;
+            this.label12.Text = "Dystans:";
+            // 
+            // Points_textbox
+            // 
+            this.Points_textbox.Location = new System.Drawing.Point(646, 227);
+            this.Points_textbox.Margin = new System.Windows.Forms.Padding(2);
+            this.Points_textbox.Name = "Points_textbox";
+            this.Points_textbox.Size = new System.Drawing.Size(111, 20);
+            this.Points_textbox.TabIndex = 55;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(535, 230);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(107, 13);
+            this.label13.TabIndex = 54;
+            this.label13.Text = "Punkty Stypendialne:";
+            // 
             // EdycjaDanych
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(897, 563);
+            this.Controls.Add(this.Points_textbox);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.Distance_textbox);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.income_textbox);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.Add_Student_manually);
             this.Controls.Add(this.Change_button);
             this.Controls.Add(this.Search_for_edition);
@@ -328,6 +394,7 @@
             this.Name = "EdycjaDanych";
             this.Text = "EdycjaDanych";
             this.TopMost = true;
+           
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -361,5 +428,11 @@
         private System.Windows.Forms.Button Search_for_edition;
         private System.Windows.Forms.Button Change_button;
         private System.Windows.Forms.Button Add_Student_manually;
+        private System.Windows.Forms.TextBox income_textbox;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox Distance_textbox;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox Points_textbox;
+        private System.Windows.Forms.Label label13;
     }
 }
