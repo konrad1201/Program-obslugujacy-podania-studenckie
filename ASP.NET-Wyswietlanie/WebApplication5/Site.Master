@@ -64,14 +64,12 @@ body {
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" runat="server" href="~/StypendiumSocjalne">Stypendium Socjalne</a>
+        <a class="nav-link" runat="server" href="~/Socjalne">Stypendium Socjalne</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" runat="server" href="~/Akademikie">Akademiki</a>
+        <a class="nav-link" runat="server" href="~/Akademiki">Akademiki</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" runat="server" href="~/Contact">Autorzy</a>
-      </li>
+      
      
     </ul>
     
@@ -86,6 +84,9 @@ body {
             <hr />
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - Programowanie Obiektowe </p>
+                 <p><span style="color:white">Grzegorz Listwan 249559@student.pwr.edu.pl  </span></p>
+                 <p><span style="color:white"> Konrad Mróz  249577@student.pwr.edu.pl  </span></p>
+                 
             </footer>
         </div>
 

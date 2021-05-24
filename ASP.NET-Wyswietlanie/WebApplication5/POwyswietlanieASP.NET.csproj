@@ -167,8 +167,10 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Socjalne.aspx" />
     <Content Include="StypendiumRektora.aspx" />
     <Content Include="WebForm2.aspx" />
+    <Content Include="Akademiki.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -205,6 +207,7 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AkademikiStudenci.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Default.aspx.cs">
@@ -233,6 +236,14 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="Socjalne.aspx.cs">
+      <DependentUpon>Socjalne.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Socjalne.aspx.designer.cs">
+      <DependentUpon>Socjalne.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Socjalne_Studenci.cs" />
     <Compile Include="Studenci_Rektor.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -254,6 +265,13 @@
     </Compile>
     <Compile Include="WebForm2.aspx.designer.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Akademiki.aspx.cs">
+      <DependentUpon>Akademiki.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Akademiki.aspx.designer.cs">
+      <DependentUpon>Akademiki.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

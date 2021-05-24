@@ -37,8 +37,8 @@ namespace WebApplication5
 
                 }
                 int i = lista.Count();
-                zakwalfikowani = lista.GetRange(0, 6);
-                niezakwalfikowani = lista.GetRange(6, i-6);
+                zakwalfikowani = lista.GetRange(0, i/2);
+                niezakwalfikowani = lista.GetRange(i/2, i/2);
                 GridView1.DataSource = zakwalfikowani;
                 GridView1.DataBind();
                 GridView3.DataSource = niezakwalfikowani;
