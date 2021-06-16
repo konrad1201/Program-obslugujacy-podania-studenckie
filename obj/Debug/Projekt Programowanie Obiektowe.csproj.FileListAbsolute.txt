@@ -107,3 +107,32 @@ D:\C#project\Program-obslugujacy-podania-studenckie\obj\Debug\Projekt Programowa
 D:\C#project\Program-obslugujacy-podania-studenckie\obj\Debug\Projekt Programowanie Obiektowe.csproj.CopyComplete
 D:\C#project\Program-obslugujacy-podania-studenckie\obj\Debug\Projekt Programowanie Obiektowe.exe
 D:\C#project\Program-obslugujacy-podania-studenckie\obj\Debug\Projekt Programowanie Obiektowe.pdb
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Projekt Programowanie Obiektowe.exe.config
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Projekt Programowanie Obiektowe.exe.manifest
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Projekt Programowanie Obiektowe.application
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Projekt Programowanie Obiektowe.exe
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Projekt Programowanie Obiektowe.pdb
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\System.Buffers.dll
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\System.Memory.dll
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\System.Numerics.Vectors.dll
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Dapper.xml
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Google.Protobuf.pdb
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\Google.Protobuf.xml
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\K4os.Compression.LZ4.xml
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\K4os.Hash.xxHash.xml
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\bin\Debug\MySql.Data.xml
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.csprojAssemblyReference.cache
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.exe.config
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt_Programowanie_Obiektowe.EdycjaDanych.resources
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt_Programowanie_Obiektowe.Form1.resources
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt_Programowanie_Obiektowe.Okienko_Admin.resources
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt_Programowanie_Obiektowe.Okienko_Rektor.resources
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt_Programowanie_Obiektowe.Properties.Resources.resources
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.csproj.GenerateResource.cache
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.exe.manifest
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.application
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.csproj.CopyComplete
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.exe
+D:\wyjatki asp\Program-obslugujacy-podania-studenckie-ASP.NET\obj\Debug\Projekt Programowanie Obiektowe.pdb

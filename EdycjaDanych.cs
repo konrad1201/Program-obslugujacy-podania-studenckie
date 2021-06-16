@@ -30,48 +30,64 @@ namespace Projekt_Programowanie_Obiektowe
 
         private void Search_for_edition_Click(object sender, EventArgs e)
         {
-            String numerindeksu = Convert.ToString(Index_Number_Textbox.Text);
-            List<Student> Lista_do_Edycji;
-            using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
+            try
             {
 
-                Lista_do_Edycji = connection.Query<Student>($"SELECT * FROM Studenci where Index_Number = '{numerindeksu}'").ToList();
-                First_Name_textbox.Text = Lista_do_Edycji[0].FirstName_P;
-                Department_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Department_p);
-                surname_textbox.Text = Lista_do_Edycji[0].LastName_p;
-                deficit_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Deficit_P);
-                Bank_account_textBox.Text = Convert.ToString(Lista_do_Edycji[0].Bank_Account_Number_p);
-                achievements_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Achievements_P);
-                average_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Average_P);
-                Study_level_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Study_Level_p);
-                year_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Year_p);
-                Semester_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Semester_P);
-                Distance_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Distance_P);
-                income_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Income_P);
-                Points_textbox.Text = Lista_do_Edycji[0].Points_p;
+
+                String numerindeksu = Convert.ToString(Index_Number_Textbox.Text);
+                List<Student> Lista_do_Edycji;
+                using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
+                {
+
+                    Lista_do_Edycji = connection.Query<Student>($"SELECT * FROM Studenci where Index_Number = '{numerindeksu}'").ToList();
+                    First_Name_textbox.Text = Lista_do_Edycji[0].FirstName_P;
+                    Department_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Department_p);
+                    surname_textbox.Text = Lista_do_Edycji[0].LastName_p;
+                    deficit_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Deficit_P);
+                    Bank_account_textBox.Text = Convert.ToString(Lista_do_Edycji[0].Bank_Account_Number_p);
+                    achievements_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Achievements_P);
+                    average_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Average_P);
+                    Study_level_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Study_Level_p);
+                    year_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Year_p);
+                    Semester_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Semester_P);
+                    Distance_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Distance_P);
+                    income_textbox.Text = Convert.ToString(Lista_do_Edycji[0].Income_P);
+                    Points_textbox.Text = Lista_do_Edycji[0].Points_p;
+                }
+            }
+            catch (System.ArgumentOutOfRangeException)
+            {
+                MessageBox.Show("Brak takiej osoby w bazie");
             }
         }
 
         private void Change_button_Click(object sender, EventArgs e)
         {
-            String numerindeksu = Convert.ToString(Index_Number_Textbox.Text);
-            using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
+            try
             {
-                connection.Execute($"UPDATE Studenci SET FirstName = '{First_Name_textbox.Text}', LastName ='{surname_textbox.Text}'," +
-                    $" Department = '{Department_textbox.Text}', Study_Level = '{Study_level_textbox.Text}'," +
-                    $" Year = '{year_textbox.Text}', Average = '{average_textbox.Text}', Achievements = '{achievements_textbox.Text}'," +
-                    $" Deficit = '{deficit_textbox.Text}', Semester = '{Semester_textbox.Text}', Bank_Account_Number = '{Bank_account_textBox.Text}', Distance = '{Distance_textbox.Text}', Income = '{income_textbox.Text}', sps = '{Points_textbox.Text}' " +
-                    $" where Index_Number = {numerindeksu}");
+                String numerindeksu = Convert.ToString(Index_Number_Textbox.Text);
+                using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
+                {
+                    connection.Execute($"UPDATE Studenci SET FirstName = '{Convert.ToString(First_Name_textbox.Text)}', LastName ='{Convert.ToString(surname_textbox.Text)}'," +
+                        $" Department = '{Convert.ToInt32(Department_textbox.Text)}', Study_Level = '{Convert.ToInt32(Study_level_textbox.Text)}'," +
+                        $" Year = '{Convert.ToInt32(year_textbox.Text)}', Average = '{average_textbox.Text}', Achievements = '{Convert.ToString(achievements_textbox.Text)}'," +
+                        $" Deficit = '{Convert.ToInt32(deficit_textbox.Text)}', Semester = '{Convert.ToInt32(Semester_textbox.Text)}', Bank_Account_Number = '{Convert.ToString(Bank_account_textBox.Text)}', Distance = '{Convert.ToInt32(Distance_textbox.Text)}', Income = '{Convert.ToInt32(income_textbox.Text)}', sps = '{Points_textbox.Text}' " +
+                        $" where Index_Number = {numerindeksu}");
 
+                }
             }
-            
+
+            catch (System.FormatException)
+            {
+                MessageBox.Show("Błędne dane");
+            }
 
         }
 
         private void Add_Student_manually_Click(object sender, EventArgs e)
         {
             Student S_obj = new Student();
-
+            
             S_obj.Department_p = Convert.ToInt32(Department_textbox.Text);
             S_obj.FirstName_P = Convert.ToString(First_Name_textbox.Text);
             S_obj.LastName_p = Convert.ToString(surname_textbox.Text);

@@ -58,6 +58,21 @@ namespace Projekt_Programowanie_Obiektowe
             }
         }
 
-
+        public bool CheckIndex(int ind_c)
+        {
+            var lista = new List<int>();
+            using (MySqlConnection connection = new MySqlConnection(Helper.CnnVal("StudencidB")))
+            {
+                lista = connection.Query<int>($"Select Index_Number from Studenci where Index_number ='{ind_c}'").ToList();
+                if(lista.Count() != 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        }
     }
 }

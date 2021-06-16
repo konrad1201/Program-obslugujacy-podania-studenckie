@@ -126,14 +126,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Projekt Programowanie Obiektowe.exe" size="76280">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Projekt Programowanie Obiektowe.exe" size="79352">
       <assemblyIdentity name="Projekt Programowanie Obiektowe" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>NBwOich69a7AD07pS+Tkg7T1SWKdRToF7MnuhTLXbRc=</dsig:DigestValue>
+        <dsig:DigestValue>Q5IXM3uNK/135MZ2ea/wJuty9I21fN5KbqkD4tBQgcw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -209,13 +209,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Projekt Programowanie Obiektowe.exe.config" size="723">
+  <file name="Projekt Programowanie Obiektowe.exe.config" size="707">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>NLEVL64++b0d4H11N7epVJ0tBL6AGaMdRouSwjELX+A=</dsig:DigestValue>
+      <dsig:DigestValue>K+7tLVGwyab1aog6H/VdS9dli8qKw/rgWQSbxBmkNHk=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
